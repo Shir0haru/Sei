@@ -1,0 +1,36 @@
+{
+  "name": "sei-chatbot",
+  "version": "1.0.0",
+  "description": "Sei is an Open-Source Serverless AI Chatbot Written in JavaScript, Using the Google Gemini API, and Deployed on Netlify.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "@google/generative-ai": "^0.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shir0haru/Sei.git"
+  },
+  "keywords": [
+    "javascript",
+    "deno",
+    "esm",
+    "netlify",
+    "edge-functions",
+    "serverless",
+    "telegram-bot",
+    "google-gemini",
+    "gemini-ai",
+    "gemini-api",
+    "chatbot"
+  ],
+  "author": "Shengwei Xiong <contact@shiroharu.eu.org>",
+  "license": "MIT",
+  "homepage": "https://shiroharu.eu.org"
+}
